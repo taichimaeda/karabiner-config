@@ -1,0 +1,27 @@
+{
+    "title": "Left Shift + Delete or Backspace to Delete Forward",
+    "rules": [
+        {
+            "description": "Left Shift + Delete or Backspace to Delete Forward",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "delete_or_backspace",
+                        "modifiers": {
+                            "mandatory": [
+                                "left_shift"
+                            ],
+                            "optional": []
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "delete_forward"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

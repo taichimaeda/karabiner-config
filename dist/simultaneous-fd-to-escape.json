@@ -1,0 +1,35 @@
+{
+    "title": "Simultaneous FD to Escape",
+    "rules": [
+        {
+            "description": "Simultaneous FD to Escape",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "simultaneous": [
+                            {
+                                "key_code": "f"
+                            },
+                            {
+                                "key_code": "d"
+                            }
+                        ],
+                        "simultaneous_options": {},
+                        "modifiers": {
+                            "mandatory": [],
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "escape"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

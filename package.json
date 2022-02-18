@@ -1,0 +1,14 @@
+{
+  "name": "karabiner-config-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "all": "npm run build && npm run install",
+    "build": "node ./scripts/build.js",
+    "install": "node ./scripts/install.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}

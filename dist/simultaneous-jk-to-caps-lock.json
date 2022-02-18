@@ -1,0 +1,35 @@
+{
+    "title": "Simultaneous JK to Caps Lock",
+    "rules": [
+        {
+            "description": "Simultaneous JK to Caps Lock",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "simultaneous": [
+                            {
+                                "key_code": "j"
+                            },
+                            {
+                                "key_code": "k"
+                            }
+                        ],
+                        "simultaneous_options": {},
+                        "modifiers": {
+                            "mandatory": [],
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "caps_lock"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
