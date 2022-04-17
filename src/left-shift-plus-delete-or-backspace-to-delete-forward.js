@@ -14,6 +14,9 @@ export function main() {
                         to: [
                             to.keyCode('delete_forward'),
                         ],
+                        conditions: [
+                            conditions.variableIf('disabled', 0),
+                        ],
                     },
                 ],
             },

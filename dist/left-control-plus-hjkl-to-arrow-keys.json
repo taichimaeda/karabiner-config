@@ -23,6 +23,11 @@
                     "conditions": [
                         {
                             "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        },
+                        {
+                            "type": "variable_if",
                             "name": "arrow_down",
                             "value": 1
                         }
@@ -45,6 +50,11 @@
                         }
                     ],
                     "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        },
                         {
                             "type": "variable_if",
                             "name": "arrow_down",
@@ -95,6 +105,13 @@
                                 "value": 0
                             }
                         }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        }
                     ]
                 },
                 {
@@ -139,6 +156,13 @@
                                 "name": "down_arrow_down",
                                 "value": 0
                             }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
                         }
                     ]
                 },
@@ -185,6 +209,13 @@
                                 "value": 0
                             }
                         }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        }
                     ]
                 },
                 {
@@ -229,6 +260,13 @@
                                 "name": "right_arrow_down",
                                 "value": 0
                             }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
                         }
                     ]
                 }

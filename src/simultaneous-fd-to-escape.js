@@ -14,6 +14,9 @@ export function main() {
                         to: [
                             to.keyCode('escape'),
                         ],
+                        conditions: [
+                            conditions.variableIf('disabled', 0),
+                        ],
                     },
                 ],
             },

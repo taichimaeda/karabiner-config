@@ -27,6 +27,13 @@
                         {
                             "key_code": "caps_lock"
                         }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        }
                     ]
                 }
             ]

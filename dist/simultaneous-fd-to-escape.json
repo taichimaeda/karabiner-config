@@ -27,6 +27,13 @@
                         {
                             "key_code": "escape"
                         }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        }
                     ]
                 }
             ]

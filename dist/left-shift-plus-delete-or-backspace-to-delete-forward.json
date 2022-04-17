@@ -19,6 +19,13 @@
                         {
                             "key_code": "delete_forward"
                         }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        }
                     ]
                 }
             ]

@@ -14,6 +14,9 @@ export function main() {
                         to: [
                             to.keyCode('caps_lock'),
                         ],
+                        conditions: [
+                            conditions.variableIf('disabled', 0),
+                        ],
                     },
                 ],
             },

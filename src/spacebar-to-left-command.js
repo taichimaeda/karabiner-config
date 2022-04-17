@@ -2,8 +2,8 @@ import {conditions, from, to} from './index.js';
 
 export function main() {
     return {
-        // This 'Spacebar to Left Command' rule has to have a lower priority than the 'Left Control + HJKL to Arrow Keys' rule
-        // in the Karabiner-Elements app so that the simultaneous key downs can be recognized correctly.
+        // This 'Spacebar to Left Command' rule must have a lower priority than the 'Left Control + HJKL to Arrow Keys' rule
+        // in the Karabiner-Elements app for simultaneous key downs to be recognized correctly.
         title: 'Spacebar to Left Command',
         rules: [
             {
@@ -20,6 +20,7 @@ export function main() {
                             to.keyCode(newKey, ['left_command']),
                         ],
                         conditions: [
+                            conditions.variableIf('disabled', 0),
                             conditions.deviceIf([5426], [2596]),
                         ],
                     })),
@@ -34,6 +35,7 @@ export function main() {
                             to.keyCode(newKey, ['left_command', 'left_shift']),
                         ],
                         conditions: [
+                            conditions.variableIf('disabled', 0),
                             conditions.deviceIf([5426], [2596]),
                         ],
                     })),
@@ -47,6 +49,7 @@ export function main() {
                             to.keyCode(key, ['left_command']),
                         ],
                         conditions: [
+                            conditions.variableIf('disabled', 0),
                             conditions.variableIf(`${key}_down`, 1),
                             conditions.deviceIf([5426], [2596]),
                         ],
@@ -62,6 +65,7 @@ export function main() {
                             to.keyCode('spacebar', [key]),
                         ],
                         conditions: [
+                            conditions.variableIf('disabled', 0),
                             conditions.variableIf('arrow_down', 0),
                             conditions.deviceIf([5426], [2596]),
                         ],
@@ -81,6 +85,7 @@ export function main() {
                             to.keyCode('spacebar'),
                         ],
                         conditions: [
+                            conditions.variableIf('disabled', 0),
                             conditions.variableIf('arrow_down', 0),
                             conditions.deviceIf([5426], [2596]),
                         ],

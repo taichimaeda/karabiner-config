@@ -19,6 +19,7 @@ export function main() {
                             to.keyCode(key),
                         ],
                         conditions: [
+                            conditions.variableIf('disabled', 0),
                             conditions.variableIf('arrow_down', 1),
                         ],
                     })),
@@ -34,6 +35,9 @@ export function main() {
                         to_after_key_up: [
                             to.setVariable('arrow_down', 0),
                             to.setVariable(`${newKey}_down`, 0),
+                        ],
+                        conditions: [
+                            conditions.variableIf('disabled', 0),
                         ],
                     })),
                 ],

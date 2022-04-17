@@ -1,0 +1,54 @@
+{
+    "title": "Disable or Enable Complex Modifications",
+    "rules": [
+        {
+            "description": "Disable or Enable Complex Modifications",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "scroll_lock",
+                        "modifiers": {}
+                    },
+                    "to": [
+                        {
+                            "set_variable": {
+                                "name": "disabled",
+                                "value": 1
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "scroll_lock",
+                        "modifiers": {}
+                    },
+                    "to": [
+                        {
+                            "set_variable": {
+                                "name": "disabled",
+                                "value": 0
+                            }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "disabled",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

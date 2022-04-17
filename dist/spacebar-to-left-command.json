@@ -33,6 +33,11 @@
                     ],
                     "conditions": [
                         {
+                            "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        },
+                        {
                             "type": "device_if",
                             "identifiers": [
                                 {
@@ -71,6 +76,11 @@
                         }
                     ],
                     "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        },
                         {
                             "type": "device_if",
                             "identifiers": [
@@ -111,6 +121,11 @@
                     ],
                     "conditions": [
                         {
+                            "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        },
+                        {
                             "type": "device_if",
                             "identifiers": [
                                 {
@@ -149,6 +164,11 @@
                         }
                     ],
                     "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        },
                         {
                             "type": "device_if",
                             "identifiers": [
@@ -192,6 +212,11 @@
                     ],
                     "conditions": [
                         {
+                            "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        },
+                        {
                             "type": "device_if",
                             "identifiers": [
                                 {
@@ -233,6 +258,11 @@
                         }
                     ],
                     "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        },
                         {
                             "type": "device_if",
                             "identifiers": [
@@ -276,6 +306,11 @@
                     ],
                     "conditions": [
                         {
+                            "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        },
+                        {
                             "type": "device_if",
                             "identifiers": [
                                 {
@@ -318,6 +353,11 @@
                     ],
                     "conditions": [
                         {
+                            "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        },
+                        {
                             "type": "device_if",
                             "identifiers": [
                                 {
@@ -350,6 +390,11 @@
                         }
                     ],
                     "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        },
                         {
                             "type": "variable_if",
                             "name": "left_arrow_down",
@@ -390,6 +435,11 @@
                     "conditions": [
                         {
                             "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        },
+                        {
+                            "type": "variable_if",
                             "name": "down_arrow_down",
                             "value": 1
                         },
@@ -426,6 +476,11 @@
                         }
                     ],
                     "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        },
                         {
                             "type": "variable_if",
                             "name": "up_arrow_down",
@@ -466,6 +521,11 @@
                     "conditions": [
                         {
                             "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        },
+                        {
+                            "type": "variable_if",
                             "name": "right_arrow_down",
                             "value": 1
                         },
@@ -502,6 +562,11 @@
                     "conditions": [
                         {
                             "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        },
+                        {
+                            "type": "variable_if",
                             "name": "arrow_down",
                             "value": 0
                         },
@@ -536,6 +601,11 @@
                         }
                     ],
                     "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        },
                         {
                             "type": "variable_if",
                             "name": "arrow_down",
@@ -581,6 +651,11 @@
                         }
                     ],
                     "conditions": [
+                        {
+                            "type": "variable_if",
+                            "name": "disabled",
+                            "value": 0
+                        },
                         {
                             "type": "variable_if",
                             "name": "arrow_down",
